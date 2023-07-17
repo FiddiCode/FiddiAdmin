@@ -1,7 +1,7 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import './menu.scss'
-import {menu} from "../../data"
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './menu.scss';
+import {menu} from "../../data";
 
 const Menu = () => {
   return (

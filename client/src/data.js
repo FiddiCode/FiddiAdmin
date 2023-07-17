@@ -114,6 +114,60 @@ const menu =[
             }
         ]
     },
+];
+
+const topDealUsers =[
+    {
+        id:1,
+        img:"",
+        username:"Elva McDonald",
+        email:"elva@gmail.com",
+        amount:"3.668"
+    },
+    {
+        id:2,
+        img:"",
+        username:"Linnie Nelson",
+        email:"linnie@gmail.com",
+        amount:"3.668"
+    },
+    {
+        id:3,
+        img:"",
+        username:"Brent Reeves",
+        email:"brent@gmail.com",
+        amount:"2.998"
+    },
+    {
+        id:4,
+        img:"",
+        username:"Adeline Watson",
+        email:"adeline@gmail.com",
+        amount:"2.512"
+    },
+    {
+        id:5,
+        img:"",
+        username:"Elva McDonald",
+        email:"elva@gmail.com",
+        amount:"2.134"
+    },
+    {
+        id:6,
+        img:"",
+        username:"Augusta McGee",
+        email:"augusta@gmail.com",
+        amount:"1.932"
+    },
+    {
+        id:7,
+        img:"",
+        username:"Angel Thonas",
+        email:"angel@gmail.com",
+        amount:"1.568"
+    },
 ]
 
-export {menu};
+
+
+export {menu,topDealUsers};
