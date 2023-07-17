@@ -15,11 +15,11 @@ a{
     font-family: 'Inter',sans-serif;
     background-color: $main-bg;
     color: $main-color;
-}
+
 
 .container{
     display: flex;
-}
+
 
 .menuContainer{
     width: 250px;
@@ -30,4 +30,6 @@ a{
 .contentContainer{
     padding: 5px 20px;
     width: 100%;
+}
+}
 }

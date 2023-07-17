@@ -12,7 +12,7 @@ const TopBox = () => {
                     <div className='listItem' key={users.id}>
                         <div className="user">
                             <img src={users.img} alt='image'/>
-                            <div className="useTexts">
+                            <div className="userTexts">
                                 <span className='usename'>{users.username}</span>
                                 <span className='email'>{users.email}</span>
                             </div>
