@@ -169,5 +169,79 @@ const topDealUsers =[
 ]
 
 
+const chartBoxUser={
+    color:"#8884d8",
+    icon:"/userIcon.svg",
+    title:"Total Users",
+    number:"11.238",
+    datakey:"users",
+    percentage:45,
+    chartdata:[
+    {name:"sun",users:400},
+    {name:"Mon",users:600},
+    {name:"Tue",users:500},
+    {name:"Wed",users:700},
+    {name:"Thu",users:400},
+    {name:"Fri",users:500},
+    {name:"Sat",users:450},
+],
+}
 
-export {menu,topDealUsers};
+const chartBoxProduct={
+    color:"skyblue",
+    icon:"/productIcon.svg",
+    title:"Total Products",
+    number:"238",
+    datakey:"products",
+    percentage:21,
+    chartdata:[
+    {name:"Sun",users:400},
+    {name:"Mon",users:600},
+    {name:"Tue",users:500},
+    {name:"Wed",users:700},
+    {name:"Thu",users:400},
+    {name:"Fri",users:500},
+    {name:"Sat",users:450},
+    ]
+
+}
+
+const chartBoxRevenue={
+    color:"teal",
+    icon:"/revenueIcon.svg",
+    title:"Total Revenue",
+    number:"$56.432",
+    datakey:"revenue",
+    percentage:-12,
+    chartdata:[
+    {name:"Sun",users:400},
+    {name:"Mon",users:600},
+    {name:"Tue",users:500},
+    {name:"Wed",users:700},
+    {name:"Thu",users:400},
+    {name:"Fri",users:500},
+    {name:"Sat",users:450},
+    ]
+
+}
+
+const chartBoxConversion={
+    color:"gold",
+    icon:"/conversionIcon.svg",
+    title:"Total Ratio",
+    number:"2.6",
+    datakey:"ratio",
+    percentage:12,
+    chartdata:[
+    {name:"Sun",users:400},
+    {name:"Mon",users:600},
+    {name:"Tue",users:500},
+    {name:"Wed",users:700},
+    {name:"Thu",users:400},
+    {name:"Fri",users:500},
+    {name:"Sat",users:450},
+    ]
+
+}
+
+export {menu,topDealUsers,chartBoxUser,chartBoxProduct,chartBoxRevenue,chartBoxConversion};
