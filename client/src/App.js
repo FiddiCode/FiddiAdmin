@@ -1,33 +1,58 @@
-import './App.css';
+import './styles/global.scss';
 import Home from './pages/Home/Home.jsx';
 import Products from './pages/Products/Products.jsx';
 import Users from './pages/Users/Users.jsx';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import {RouterProvider, createBrowserRouter} from 'react-router-dom'
+import Menu from './components/Menu/Menu';
+import Login from './pages/Login/Login';
+import {RouterProvider, createBrowserRouter,Outlet} from 'react-router-dom'
 
 function App() {
+
+  const Layout =()=>{
+    return(
+      <div className='main'>
+        <Navbar/>
+        <div className='container'>
+          <div className='menuContainer'>
+            <Menu/>
+          </div>
+          <div className='contentContainer'>
+            <Outlet/>
+          </div>
+        </div>
+        <Footer/>
+      </div>
+    )
+  }
 
   const router=createBrowserRouter([
     {
       path:'/',
-      element:<Home/>
+      element:<Layout/>,
+      children:[
+        {
+          path:'/home',
+          element:<Home/>
+        },
+        {
+          path:'/users',
+          element:<Users/>
+        },
+        {
+          path:'/products',
+          element:<Products/>
+        },
+      ]
     },
     {
-      path:'/users',
-      element:<Users/>
-    },
-    {
-      path:'/products',
-      element:<Products/>
-    },
-  ]
-  )
-  return (
-    <div className="App">
-      <RouterProvider router={router}/>
-    </div>
-  );
+      path:'/login',
+      element:<Login/>
+    }
+  ]);
+
+  return   <RouterProvider router={router}/>;
 }
 
 export default App;
