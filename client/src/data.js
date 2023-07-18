@@ -244,4 +244,79 @@ const chartBoxConversion={
 
 }
 
-export {menu,topDealUsers,chartBoxUser,chartBoxProduct,chartBoxRevenue,chartBoxConversion};
+const barChartBoxRevenue={
+    title:"Profit Earned",
+    color:"#8884d9",
+    dataKey:"profit",
+    chartdata:[
+      { 
+        name:"Sun",
+        profit:4000
+        },
+    {   
+        name:"Mon",
+        profit:6000
+     },
+     {   
+        name:"Tue",
+        profit:5000
+    },
+
+    {   
+        name:"Wed",
+        profit:7000
+    },
+    {
+         name:"Thu",
+        profit:4000
+    },
+    {
+        name:"Fri",
+        profit:5000
+    },
+    {
+        name:"Sat",
+        profit:4500
+    },
+        ]
+
+}
+
+const barChartBoxVisit={
+    title:"Total Visit",
+    color:"#FF8842",
+    dataKey:"visit",
+    charData:[
+        {
+            name:"Sun",
+            visit:4000,
+        },
+        {
+            name:"Mon",
+            visit:3000,
+        },
+        {
+            name:"Tue",
+            visit:2000,
+        },
+        {
+            name:"Wed",
+            visit:4000,
+        },
+        {
+            name:"Thu",
+            visit:2500,
+        },
+        {
+            name:"Fri",
+            visit:3000,
+        },
+        {
+            name:"Sat",
+            visit:4500,
+        },
+
+    ]
+}
+
+export {menu,topDealUsers,chartBoxUser,chartBoxProduct,chartBoxRevenue,chartBoxConversion,barChartBoxVisit,barChartBoxRevenue};
