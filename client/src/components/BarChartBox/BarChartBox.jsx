@@ -2,6 +2,7 @@ import React from 'react'
 import './barChartBox.scss'
 import { BarChart, ResponsiveContainer, Tooltip,Bar } from 'recharts';
 
+
 const BarChartBox = (props) => {
   return (
     <div className='barChartBox'>

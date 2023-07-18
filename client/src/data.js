@@ -176,7 +176,7 @@ const chartBoxUser={
     number:"11.238",
     datakey:"users",
     percentage:45,
-    chartdata:[
+    chartData:[
     {name:"sun",users:400},
     {name:"Mon",users:600},
     {name:"Tue",users:500},
@@ -194,7 +194,7 @@ const chartBoxProduct={
     number:"238",
     datakey:"products",
     percentage:21,
-    chartdata:[
+    chartData:[
     {name:"Sun",users:400},
     {name:"Mon",users:600},
     {name:"Tue",users:500},
@@ -213,7 +213,7 @@ const chartBoxRevenue={
     number:"$56.432",
     datakey:"revenue",
     percentage:-12,
-    chartdata:[
+    chartData:[
     {name:"Sun",users:400},
     {name:"Mon",users:600},
     {name:"Tue",users:500},
@@ -232,7 +232,7 @@ const chartBoxConversion={
     number:"2.6",
     datakey:"ratio",
     percentage:12,
-    chartdata:[
+    chartData:[
     {name:"Sun",users:400},
     {name:"Mon",users:600},
     {name:"Tue",users:500},
@@ -248,7 +248,7 @@ const barChartBoxRevenue={
     title:"Profit Earned",
     color:"#8884d9",
     dataKey:"profit",
-    chartdata:[
+    chartData:[
       { 
         name:"Sun",
         profit:4000
@@ -278,7 +278,7 @@ const barChartBoxRevenue={
         name:"Sat",
         profit:4500
     },
-        ]
+        ],
 
 }
 
@@ -286,7 +286,7 @@ const barChartBoxVisit={
     title:"Total Visit",
     color:"#FF8842",
     dataKey:"visit",
-    charData:[
+    chartData:[
         {
             name:"Sun",
             visit:4000,

@@ -41,7 +41,7 @@ const ChartBox = (props) => {
                         datakey={props.datakey}
                         stroke={props.color}
                         stokewidth={2}
-                        dot={false}
+                        dot={true}
                         />
                     </LineChart>
                 </ResponsiveContainer>
