@@ -1,9 +1,10 @@
 @import './variables.scss';
 
 *{
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding:0px;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 a{
@@ -15,14 +16,13 @@ a{
     font-family: 'Inter',sans-serif;
     background-color: $main-bg;
     color: $main-color;
-
+   
 
 .container{
     display: flex;
 
-
 .menuContainer{
-    width: 250px;
+    width: 200px;
     padding: 5px 20px;
     border-right: 2px solid $soft-bg;
 }
