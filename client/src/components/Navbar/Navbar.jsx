@@ -1,26 +1,31 @@
 import React from 'react'
 import './navbar.scss'
-
+import SearchIcon from '@mui/icons-material/Search';
+import AppsIcon from '@mui/icons-material/Apps';
+import NotificationsNoneIcon  from '@mui/icons-material/NotificationsNone';
+import SettingsIcon from '@mui/icons-material/Settings';
+import CropFreeIcon from '@mui/icons-material/CropFree';
+import Logo from './Logo-remove.png'
 const Navbar = () => {
   return (
     <div className='navbar'>
     <div className="logo">
-      <img src='logo.svg' alt='logo'/>
-      <span>FiddiAdmin</span>
+      <img src={Logo} alt='logo'/> 
+      <span>FidAdmin</span>
       </div>
     <div className="icons">
-      <img src="/search.svg" alt="search" className='icon'/>
-      <img src="/app.svg" alt="app" className='icon'/>
-      <img src="/expand.svg" alt="expand" className='icon'/>
+      <SearchIcon/>
+      <AppsIcon/>
+      <CropFreeIcon/>
       <div className="notifications">
-        <img src='/notifications.svg' alt='notification'/>
+        <NotificationsNoneIcon/>
         <span>1</span>
       </div>
       <div className='user'>
-        <img src='' alt='profile'/>
+        <img src='https://avatars.githubusercontent.com/u/116375703?v=4' alt='profile'/>
         <span>fardeen</span>
       </div>
-      <img src='/settings.svg' alt='setting' className='icon'/>
+      <SettingsIcon/>
     </div>
       </div>
   )
