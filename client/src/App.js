@@ -6,6 +6,8 @@ import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Menu from './components/Menu/Menu';
 import Login from './pages/Login/Login';
+import Product from './pages/Product/Product.jsx';
+import User from './pages/User/User.jsx';
 import {RouterProvider, createBrowserRouter,Outlet} from 'react-router-dom'
 
 function App() {
@@ -43,6 +45,14 @@ function App() {
         {
           path:'/products',
           element:<Products/>
+        },
+        {
+          path: "/users/:id",
+          element: <User/>,
+        },
+        {
+          path: "/products/:id",
+          element: <Product/>,
         },
       ]
     },
