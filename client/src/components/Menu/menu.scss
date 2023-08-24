@@ -16,9 +16,9 @@
             color:$soft-color;
             text-transform: uppercase;
 
-            @include lg{
-                display: none;
-              }
+            // @include lg{
+            //     display: none;
+            //   }
         }
 
         .listItem{
@@ -33,9 +33,9 @@
             }
 
             .listItemTitle{
-                @include lg{
-                  display: none;
-                }
+                // @include lg{
+                //   display: none;
+                // }
               }
         }
 
