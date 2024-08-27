@@ -1,6 +1,6 @@
 import ' ./styles/global.scss ';
 import Home from './pages/Home/Home.jsx ';
-import Products from './pages/Products/Products.jsx';
+import Products from './pages/Products/Products.jsx ';
 import Users from './pages/Users/Users.jsx ';
 import Navbar from './components/Navbar/Navbar.jsx';
 import Footer from './components/Footer/Footer.jsx';
