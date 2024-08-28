@@ -10,7 +10,7 @@ import Product from './pages/Product/Product.jsx ';
 import User from './pages/User/User.jsx';
 import { RouterProvider, createBrowserRouter,Outlet} from 'react-router-dom'
 
-function App() {
+function App () {
 
   const Layout =()=>{
     return(
