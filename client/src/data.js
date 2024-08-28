@@ -19,7 +19,7 @@ export const menu = [
     },
     {
       id: 2,
-      title: "lists",
+      title: " lists",
       listItems: [
         {
           id: 1,
