@@ -3,7 +3,7 @@ import './home.scss'
 import TopBox from '../../components/topBox/TopBox'
 import ChartBox from '../../components /ChartBox/ChartBox'
 import {barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data'
-import BarChartBox from '../../components/BarChartBox/BarChartBox'
+import BarChartBox from '../../components /BarChartBox/BarChartBox'
 import PieChartBox from '../../components/PieChartBox/PieChartBox'
 import BigChartBox from '../../components/BigChartBox/BigChartBox'
 
