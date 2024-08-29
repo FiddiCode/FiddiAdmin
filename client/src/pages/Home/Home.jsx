@@ -5,7 +5,7 @@ import ChartBox from '../../components /ChartBox/ChartBox'
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data'
 import BarChartBox from '../../components /BarChartBox/BarChartBox'
 import PieChartBox from '../../components/PieChartBox/PieChartBox'
-import BigChartBox from '../../components/BigChartBox/BigChartBox'
+import  BigChartBox from '../../components/BigChartBox/BigChartBox'
 
 const Home = () => {
   return (
