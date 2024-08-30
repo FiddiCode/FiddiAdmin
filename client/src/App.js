@@ -8,7 +8,7 @@ import Menu from './components/Menu/Menu ';
 import Login from './pages/Login/Login ';
 import Product from './pages/Product/Product.jsx ';
 import User from './pages/User/User.jsx';
-import { RouterProvider, createBrowserRouter,Outlet} from 'react-router-dom'
+import  { RouterProvider, createBrowserRouter,Outlet} from 'react-router-dom'
 
 function App () {
 
