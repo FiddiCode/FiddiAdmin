@@ -1,4 +1,4 @@
-import './styles/global.scss ';
+ import './styles/global.scss ';
 import Home from './pages/Home/Home.jsx ';
 import Products  from './pages/Products/Products.jsx ';
 import Users from './pages/Users/Users.jsx ';
