@@ -1,5 +1,5 @@
 import React from 'react'
- import './home.scss'
+import './home.scss'
 import TopBox from '../../components/topBox/TopBox'
 import ChartBox from '../../components /ChartBox/ChartBox'
 import { barChartBoxRevenue, barChartBoxVisit, chartBoxConversion, chartBoxProduct, chartBoxRevenue, chartBoxUser } from '../../data'
