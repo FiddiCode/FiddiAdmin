@@ -1,4 +1,4 @@
-import React from 'react'
+import  React from 'react'
 import './add.scss'
 
 const Add = (props) => {
