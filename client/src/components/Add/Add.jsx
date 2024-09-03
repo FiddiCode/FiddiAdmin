@@ -1,7 +1,7 @@
 import  React from 'react'
 import './add.scss'
 
-const  Add = (props) => {
+const Add = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
