@@ -3,7 +3,7 @@ import './add.scss'
 
 const Add = (props) => {
 
-  const  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     //add new item
